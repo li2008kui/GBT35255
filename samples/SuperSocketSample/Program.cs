@@ -41,8 +41,8 @@ namespace SuperSocketSample
         static ValueTask SendCommand(IAppSession s)
         {
             // 创建命令
-            var ca = new CreateCommand(MessageType.Command, 0x00000001);
-            var cmd = ca.GetRequestCommand(MessageId.RealTimeControlLuminaire, ParameterType.Brightness, "100");
+            var creater = new CreateCommand(MessageType.Command, 0x00000001);
+            var cmd = creater.GetRequestCommand(MessageId.RealTimeControlLuminaire, ParameterType.Luminance, "100");
 
             return s.SendAsync(cmd);
         }

@@ -20,8 +20,8 @@ namespace SuperSocketSample
             if (CheckHasStx(buffer, out byte[] bArray) && bArray != null)
             {
                 // 解析命令
-                var parse = new ParseCommand(bArray);
-                var datagrams = parse.DatagramList;
+                var parser = new ParseCommand(bArray);
+                var datagrams = parser.DatagramList;
 
                 if (datagrams.Count > 0)
                 {

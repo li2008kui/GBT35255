@@ -159,7 +159,7 @@ namespace GBT35255.ProtoBase
         /// 亮度。
         /// <para>即灯具的照度</para>
         /// <para>参数值最大字节数：3。</para>
-        /// <para>亮度值，使用十进制表示，00-100。</para>
+        /// <para>亮度值，使用十进制表示，000-100。</para>
         /// </summary>
         [Description("灯具亮度")]
         Luminance = 0x0021,
