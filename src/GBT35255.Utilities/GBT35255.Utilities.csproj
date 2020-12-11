@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>0.0.2-alpha</Version>
+    <Authors>Li Kui</Authors>
+    <Description>这是一个实现GB/T 35255-2017《LED公共照明智能系统接口应用层通信协议》所需要的工具类库。</Description>
+    <Copyright>Copyright 2021 Li Kui</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/li2008kui/GBT35255</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/li2008kui/GBT35255</RepositoryUrl>
+    <PackageTags>GBT35255,CSA018</PackageTags>
+    <PackageReleaseNotes>实现GB/T 35255-2017协议基本功能。</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
