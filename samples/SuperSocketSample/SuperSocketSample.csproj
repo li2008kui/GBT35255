@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SuperSocket" Version="2.0.0-beta7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GBT35255.Primitives\GBT35255.Primitives.csproj" />
+    <ProjectReference Include="..\..\src\GBT35255.ProtoBase\GBT35255.ProtoBase.csproj" />
+  </ItemGroup>
+
+</Project>

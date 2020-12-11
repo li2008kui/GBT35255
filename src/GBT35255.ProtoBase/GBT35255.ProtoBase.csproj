@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GBT35255.Extensions\GBT35255.Extensions.csproj" />
+    <ProjectReference Include="..\GBT35255.Utilities\GBT35255.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
